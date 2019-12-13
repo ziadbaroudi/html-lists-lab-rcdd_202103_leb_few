@@ -42,7 +42,7 @@ In HTML, we create lists using the `<ul>` tag, which stands for _unordered
 list_, along with the `<li>` tag for each _list item_.
 
 To make a list, we write out the opening and closing `<ul>` tags, and inside
-them, we'll add `<li>` tags, each listing a single month. Going back to our
+them, we'll add `<li>` tags, each listing a single ingredient. Going back to our
 favorite foods example, if we wanted convert it to a list, it would look like
 this:
 
@@ -151,7 +151,7 @@ might look like:
 > Grilled Cheese` as the #1 food (where it belongs).
 
 Nested ordered lists works the same as unordered, but instead of hollow and
-square bullets, each nested list will still display numebrs.
+square bullets, each nested list will still display numbers.
 
 **Note:** In a nested list, you _must_ provide the `ol` or `ul` wrapper.  Otherwise, an
 `li` inside another `li` will just be displayed as two items at the same level.
@@ -191,12 +191,11 @@ to see the tests pass.
 
 ## Conclusion
 
-Lists in HTML are very useful for organizing related content, and are really the
-only way indicate that content is related with basic HTML.  Using unordered
-lists ends up being very useful for more than just listing favorite foods and
-ingredients.  Its possible, for instance, to use list elements to organize
-navigation links - with styling, we make the content look however we want:
-remove the bullets, make them line up horizontally, but in our HTML they will
-still be organized and easy to read.
+Lists in HTML are useful for organizing related content. In basic html, they're
+our go-to way to indicate that content is related.  Using unordered
+lists is useful for more than just listing favorite foods.  For example, we can 
+use list elements to organize navigation links, like in a menu bar. With styling,
+we can remove the bullets, make items line up horizontally, and make the list 'look good'.
+In our HTML, the list will be organized and easy to read.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-lists' title='HTML Lists'>HTML Lists</a> on Learn.co and start learning to code for free.</p>
